@@ -1,0 +1,98 @@
+.header {
+    position : fixed;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-wrapper {
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(25px);
+}
+.navbar {
+    margin: auto;
+    width: 60%;
+    height: 60px;
+    display: flex;
+    font-size: 12px;
+    z-index: 999;
+    top: 0;
+}
+.navbar-container-right {
+    flex : 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.navbar-container-left {
+    flex : 1;
+    display: flex;
+    align-items: center;
+    gap : 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+
+.navbar-logo {
+    position: relative;
+    top: 3px;
+    color : black;
+    font-size: 1.5rem;
+}
+
+.Searchbar {
+    position : relative;
+}
+
+.t {
+    position: relative;
+    width: 36px;
+    height: 16px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+
+}
+
+.t-button {
+    width : 20px;
+    height : 20px;
+    border-radius : 50%;
+    background-color: white;
+    position : absolute;
+    cursor : pointer;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.15);
+    border: 0.5px solid #737373;
+}
+.darkMode {
+    margin : 0px 10px;
+}
+
+.Moon {
+    color : #5D5D5D;
+    position: relative;
+    top:3px;
+    font-size: 1.2rem;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
